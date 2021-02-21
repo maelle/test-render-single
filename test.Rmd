@@ -1,7 +1,9 @@
 ---
-title: "Untitled"
+title: "`r params$title`"
 output: html_document
 knit: source("_render_single.R")$value
+params:
+  title: "Old title"
 ---
 
 ```{r setup, include=FALSE}
